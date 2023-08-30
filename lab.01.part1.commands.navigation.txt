@@ -16,8 +16,9 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
-
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/    
 
 
 ==========
