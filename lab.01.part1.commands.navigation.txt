@@ -16,9 +16,13 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
-ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
-bin/    
+'3D Objects'/             Documents/        'My Documents'@                                                                                 OneDrive/      'Start Menu'@      ntuser.ini
+ AppData/                 Downloads/         NTUSER.DAT                                                                                     PrintHood@      Templates@        source/
+'Application Data'@       Favorites/         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Recent@         Videos/
+ Contacts/                Links/             NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   ansel/
+ Cookies@                'Local Settings'@   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Searches/       ntuser.dat.LOG1
+'Creative Cloud Files'/   Music/             NetHood@                                                                                       SendTo@         ntuser.dat.LOG2
+  
 
 
 ==========
@@ -29,6 +33,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
+total 0
+lrwxrwxrwx 1 hiblu 197610 20 Aug 31  2021 'My Music' -> /c/Users/hiblu/Music/
 
 
 
@@ -41,6 +47,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+./   ../  'My Music'@  'My Pictures'@  'My Videos'@  'Red Giant'/
 
 
 
@@ -99,6 +106,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 
@@ -110,7 +118,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 
 
@@ -123,7 +131,10 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
+Command - ls
+Flag - -a
+Argument - Desktop
+Prompt - $
 
 
 
