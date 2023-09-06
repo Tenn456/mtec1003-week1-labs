@@ -152,14 +152,14 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-
+$ mkdir mtec1003
 
 
 ==========
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
-
+$ cd mtec1003
 
 
 
@@ -175,7 +175,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/c/Users/hiblu/mtec1003
 
 
 
@@ -188,7 +188,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 
 
@@ -201,7 +201,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  food/
 
 
 
@@ -214,7 +214,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals	foo	food
+animals/  foo/  food/
 
 
 
@@ -228,7 +228,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/hiblu/mtec1003/foo/bar/baz/qux
 
 
 
@@ -241,7 +241,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/hiblu/mtec1003/foo/bar
 
 
 
@@ -254,7 +254,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/hiblu/mtec1003/foo/bar/baz/qux
 
 
 
@@ -267,7 +267,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/hiblu/mtec1003
 
 
 
@@ -281,7 +281,8 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
+drwxr-xr-x 1 hiblu 197610 0 Sep  6 15:49 foo/
+drwxr-xr-x 1 hiblu 197610 0 Sep  6 15:48 food/
 
 
 
@@ -294,7 +295,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/hiblu
 
 
 
@@ -307,7 +308,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+bash: cd: /Volumes: No such file or directory
 
 
 
@@ -320,7 +321,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+bash: cd: /unknown_folder: No such file or directory
 
 
 
@@ -333,7 +334,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/hiblu/mtec1003
 
 
 
@@ -345,7 +346,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+DESKTOP-KAHKCN4
 
 
 
@@ -353,7 +354,7 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+$pwd
 
 
 ==========
@@ -381,7 +382,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+$ mkdir -p lemon/strawberry/orange/pineapple
 
 
 
@@ -391,7 +392,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
+$ mkdir aardvark
 
 
 
@@ -401,7 +402,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+I don't understand this.
 
 
 
@@ -416,7 +417,7 @@ What command did you use?
 ----------
 
 
-
+$ mkdir -p foo/bar/baz
 
 
 ==========
@@ -425,7 +426,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+$ cd foo/bar/baz
 
 
 
@@ -435,7 +436,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+$cd ../..
 
 
 
@@ -443,7 +444,7 @@ What command did you use?
 36. What command is used to delete empty directories?
 ----------
 
-
+$ rmdir
 
 
 
@@ -452,14 +453,14 @@ What command did you use?
 ----------
 
 
-
+$ pwd
 
 
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 
 
@@ -467,7 +468,7 @@ What command did you use?
 39. What's the shortcut for home directory?
 ----------
 
-
+~
 
 
 
@@ -475,7 +476,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+The name of a file or a directory.
 
 
 
@@ -483,11 +484,13 @@ What command did you use?
 41. What is a directory?
 ----------
 
-
+A thing that contains files.
 
 
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/c/Users/hiblu/Downloads
 
